@@ -4,7 +4,7 @@ RUN yum install -y httpd zip unzip && yum clean all
 
 WORKDIR /var/www/html
 
-COPY  ./code/* /var/www/html/ 
+COPY  ./clone/* /var/www/html/ 
 
 EXPOSE 80
 
