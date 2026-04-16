@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>YouTube Clone</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="navbar">
+    <h2>YouTube Clone</h2>
+    <input type="text" id="search" placeholder="Search" onkeyup="searchVideos()">
+</header>
+
+<!-- Upload -->
+<form id="uploadForm">
+    <input type="file" name="video" required>
+    <button type="submit">Upload Video</button>
+</form>
+
+<!-- Video List -->
+<div id="results" class="videos"></div>
+
+<script src="script.js"></script>
+</body>
+</html>
