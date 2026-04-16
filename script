@@ -3,7 +3,7 @@ set -e
 
 APP_NAME="youtube"
 IMAGE_NAME="youtube"
-PORT=8080
+PORT=8086
 
 echo "--- 1. Building Image ---"
 sudo podman build -t $IMAGE_NAME:latest -f containerfile .
